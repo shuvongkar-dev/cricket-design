@@ -29,7 +29,7 @@ nav ul{
 }
 
 nav ul li{
-    margin-right: 48px;
+    margin-left: 48px;
 }
 
 nav li a{
@@ -54,3 +54,52 @@ nav li a{
 #Coin i{
     color: #FDD835;
 }
+
+/* header section */
+
+.container{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.banner{
+    background-image: url(/assets/bg-shadow.png);
+    background-color: #131313;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 175px;
+    margin-top: 24px;
+    border-radius: 24px;
+}
+
+.content{
+    text-align: center;
+}
+
+.content >img{
+    margin-bottom: 24px;
+}
+
+.content >h3{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.content >p{
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 16px;
+    font-weight:500;
+}
+
+.btn{
+    margin-top: 32px;
+    padding: 14px 20px;
+    background-color: #E7FE29;
+    border: 8px solid #131313;
+    border-radius: 12px;
+    outline: 1px solid #E7FE29;
+}
+
