@@ -9,6 +9,9 @@
 }
 
 
+
+
+
 /* nav style */
 
 
@@ -58,7 +61,7 @@ nav li a{
 /* header section */
 
 .container{
-    max-width: 1224px;
+    max-width: 1320px;
     margin: 0 auto;
 }
 
@@ -94,12 +97,169 @@ nav li a{
     font-weight:500;
 }
 
-.btn{
+.banner-btn{
     margin-top: 32px;
     padding: 14px 20px;
     background-color: #E7FE29;
     border: 8px solid #131313;
     border-radius: 12px;
     outline: 1px solid #E7FE29;
+    cursor: pointer;
 }
 
+
+/* main section */
+
+.main-section > .section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+main{
+    margin-top: 88px;
+}
+
+.btn-2{
+    padding: 14px 30px;
+    border: none;
+    color: rgba(19, 19, 19, 0.6);
+    cursor: pointer;
+    
+}
+
+.btn-container{
+    display: flex;
+    border: 1px solid rgba(19, 19, 19, 0.1);
+    border-radius: 10%; 
+    
+}
+
+.btn{
+    background-color: #E7FE29;
+    padding: 14px 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section-header > ul li{
+    list-style: none;
+    
+}
+
+.section-header >ul{
+    
+}
+
+.section-header >h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* main-card section */
+
+
+.section-main{
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 24px;
+}
+
+.card{
+    width: 418px;
+    padding: 24px;
+    border: 1px solid rgba(19, 19, 19, 0.1);
+    border-radius: 16px;
+}
+
+.card-content{
+    margin-top: 24px;
+}
+
+.card >img{
+    border-radius: 16px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.name >h4{
+    font-size: 20px;
+    font-weight:500;
+    margin-left: 16px;
+}
+
+
+.position{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+}
+
+.flag >p{
+    margin-left: 12px;
+    opacity: 50%;
+}
+
+.flag >i{
+    opacity: 50%;
+}
+
+.name >i{
+    color: rgba(19, 19, 19, 0.8);
+}
+
+.position >p{
+    padding: 9px 16px;
+    background-color: rgba(19, 19, 19, 0.05);
+    border-radius: 8px;
+}
+
+.details >h4{
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.hand{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.hand >h3{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.hand >p{
+    color: rgba(19, 19, 19, 0.7);
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price >h4{
+    font-weight: 600;
+}
+
+.price >button{
+    padding: 9px 16px;
+    border: 1px solid rgba(19, 19, 19, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
