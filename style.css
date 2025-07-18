@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sora;
 }
 
 
@@ -66,7 +67,7 @@ nav li a{
 }
 
 .banner{
-    background-image: url(/assets/bg-shadow.png);
+    background-image: url(./assets/bg-shadow.png);
     background-color: #131313;
     display: flex;
     align-items: center;
@@ -272,7 +273,7 @@ footer{
 
 .Subscribe-section{
     padding: 88px 10px;
-    background-image: url(/assets/bg-shadow.png);
+    background-image: url(./assets/bg-shadow.png);
     border-radius: 24px;
     background-color: #ffffff;
     
